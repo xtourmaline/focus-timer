@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a98d79
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+#display {
+    font-size: 72px;
+    margin-top: 50px;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+button:hover {
+    background-color: #4273d7;
+}
+
+button:active {
+    background-color: #00008b;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+    cursor: default;
+}
+
+button + button {
+    margin-left: 10px;
+}

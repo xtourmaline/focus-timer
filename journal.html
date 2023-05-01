@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+  </style>
+  <h1>
+  <center> Journal </center> 
+    </h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="journal.css" rel="stylesheet" type="text/css" />
+
+</head>
+  <br> </br>
+<body>
+
+<center>
+<article class="regular">
+    <section class="section journal-section">
+      <div class="container">
+        <div class="container-row container-row-journal">
+          <div class="container-item container-item-journal">
+            <form id="entryForm" action="">
+              <label for="entry-title" class="journal-label">Entry Title</label>
+              <input
+                type="text"
+                name="entry-title"
+                id="entry-title"
+                class="entry-text-title"
+                placeholder="Enter Title Here"
+              />
+              <label for="entry" class="journal-label">Today's Entry</label>
+              <textarea
+                name="daily-entry"
+                id="entry"
+                class="entry-text-box"
+                placeholder="Write Your Journal Here"
+              ></textarea>
+              <br> </br>
+              <button class="btn-main entry-submit-btn"type="submit">Add</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal Entry Results -->
+    <section class="section sectionEntryResults" id="entryResultsSection">
+      <div class="container">
+        <div class="container-row entryResultRow"></div>
+      </div>
+    </section>
+
+  <script src="journal.js"></script>
+
+</body>
+
+</html>

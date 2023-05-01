@@ -1,0 +1,215 @@
+  h1 {
+  font-size: 50px;
+}
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;   
+  background-color: #d3d3d3;
+  font-family: 'Arial', Times, serif;
+  font-size: 20px;
+  color: #black;
+}
+textarea  
+{  
+  color:#182e45;
+   font-family:Arial;  
+   font-size: 12px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #fefbfb;
+  border: 3px solid #4065a0;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #ebf0ee;
+  border: 3px solid #3c7c78;
+}
+
+
+nav li a {
+  display: block;
+  color: #ffffff;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+nav li {
+  text-align: center;
+  border-bottom: 1px solid #719ef9;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+nav li a.active {
+  background-color: rgb(167, 200, 236);
+  color: #4dc3ff;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #cfbfb7;
+  color: #56818a;
+}
+/* Navigation*/
+.topnav {
+  background-color: #182e45;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #171d29;
+  color: #fcfcfd;
+}
+
+.topnav a.active {
+  background-color: #273f59;
+  color: #fdfcfc;
+}
+
+
+.entry-text-title {
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: #719ef9;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.entry-text-title:focus {
+  outline-color: #273f59;
+  font-family: 'Times New Roman', Times, serif;
+  color: #182e45;
+  font-size: 1rem;
+}
+
+.entry-text-title::placeholder {
+  color: #182e45;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+.entry-text-title::-ms-value {
+  color: ##719ef9;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+/* Text Box */
+
+.container-row-journal {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.journal-label {
+  display: block;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.entry-text-box {
+  width: 100%;
+  height: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: #719ef9;
+  font-family: 'Arial', Times, serif;
+}
+
+@media (min-width: 769px) {
+  .entry-text-box {
+    width: 40em;
+    height: 20em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: #719ef9;
+    font-family: 'Arial', Times, serif;
+  }
+}
+
+.entry-text-box:focus {
+  outline-color: #273f59;
+  font-family: 'Arial', Times, serif;
+  color: #182e45;
+  font-size: 1rem;
+}
+
+.entry-text-box::placeholder {
+  color: #182e45;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+.entry-submit-btn {
+  margin: 0;
+}
+
+/* Journal Results Section */
+
+.sectionEntryResults {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.entryResultRow {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 1em auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-entry-div {
+  max-width: 100%;
+
+  margin: 1em auto;
+  padding: 1em 1em;
+}
+
+.single-entry-date {
+  background-color: #719ef9;
+  color: #273f59;
+  width: 100%;
+}
+
+.heading-results {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #719ef9;
+}

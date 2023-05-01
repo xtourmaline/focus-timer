@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Focus Timer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Gridfiti_Blog_AestheticOnlineCountdownTimers_Video_30.jpg"" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Focus Timer</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#timer" onclick="window.scrollTo(0, 0);" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>TIMER</a> 
+    <a href="#articles" onclick="window.scrollTo(1200, 1200);" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right">
+</i>ARTICLES</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right">
+</i>ABOUT</a> 
+    <a href="#contact" onclick="window.scrollTo(5000, 5000);" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  
+</nav>
+<header id="Studying">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Studying</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+        <button onclick="window.location.href = 'index.html';">HOME</button>
+      <button onclick="window.location.href = 'budgetmaker.html';">Budget Maker</button>
+      <button onclick="window.location.href = 'journal.html';">Journal </button>
+      
+    </div>
+    </div> 
+  </header>
+</head>
+
+
+<body>
+    <h1>Focus Timer</h1>
+  <div>
+  <p id="display">25:00</p>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+
+<script src="script.js"></script>
+    </div>
+</body>
+  <div>
+    <p><b>Calendar:</b></p> 
+    <iframe src="calendar.html" height="550" width="500" style="border:none;"title="Calendar widget"></iframe> 
+    </div>
+</html>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<h6><b>Articles: </b></h6>
+<div class="w3-main" style="margin-left:300px">
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="studyinganimated2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <a href="https://schoolhabits.com/author/schoolhabits417/"><b>SchoolHabits</b></a>
+        <br>
+          <p>My name is Katie Azevedo. Through private coaching and video tutorials, I teach students how to learn. I work with students in elementary school through graduate school, as well as adults looking to further their work productivity habits.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="calnewportblog.jpg" alt="Norway" style="width:100%;height:-100px" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <a href="https://calnewport.com/blog/"><b>Cal Newport's Study Hacks Blo</b></a>
+        <br>
+          <p>Cal Newport is an Associate Professor of Computer Science at Georgetown University, who specializes in the theory of distributed algorithms. He previously earned his PhD. from MIT in 2009. He writes about how to perform productive, valuable, and meaningful work in an increasingly distracted digital age. He focuses on deep work, success, productivity, and work-life balance.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="studyanimated.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+<a href="https://studyblog.warwick.ac.uk//"><b>The Study Blog</b></a>
+         <p> This blog is founded by the Library at the University of Warwick and connects you with information, support and your community. It's about your study experience at Warwick. The highs and the lows, with posts offering tips and secrets on how to, for instance, be better skilled at presentations, avoid plagiarism pitfalls, prevent library fines and much more.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="studywithme.jpg" alt="Norway" style="width:100%;height:-100px"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+<a href="https://www.youtube.com/channel/UCtVZ0eAO-nQgY-00ZYruJbg"><b>WaysToStudy - Youtube</b></a>
+          <p> Hi everyone, I am Ways To Study and I am a law student. I am 19 years old and I am in my second year of my bachelor. I started this channel to give you study tips, show you my study routines and to motivate you to study..</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="flashcardimg.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+<a href="https://schoolhouse.world/blog/tutor-tips-on-managing-study-time-effectively/?utm_source=adwords&utm_medium=cpc&utm_campaign=Schoolhouse_Google_Search_NB_DSA_Acquisition_US&ref=Schoolhouse_Google_Search_NB_DSA_All_Site_Acquisition_US&gclid=CjwKCAjwo7iiBhAEEiwAsIxQEZu0NI1uj0KxamPBKHAXsOU6rKUtK-FWNtLt-6zvLKlx2ZMGSW0fnxoCWScQAvD_BwE"><b>A Tutor's Tips on How to Study Smarter</b></a>
+        <p>
+          Every once in a while, you might find yourself in quite a predicament when it comes to studying. Whether it’s not having enough time or just not knowing where to begin when it comes to studying, everyone has faced a few issues regarding academic preparation. That’s where these tips come in handy. Try these out to study smarter, not harder!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="studyaesthetic.jpg" alt="hwimage" style="width:100%;height:200px"  class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+<a href="https://www.wizeprep.com/blog/study-tips-for-success"><b>Study Tips for Success</b></a>
+          <p> Your undergraduate degree - like many other things - is all about how you play the game. People who excel in school most often can thank their study habits for their success.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="usetldr_2852099_u_2924145_image_format_mGhJAKWMfVOzhUx.jpg" alt="Lydia Mattew" style="width:50%">
+    <p><b>Lydia Mattew</b></p>
+    </div>
+    <div class="w3-col m6">
+      <img src="Sainthavi.jpeg" alt="Sainthavi Sivakumar" style="width:50%"
+      <p><b>Sainthavi Sivakumar</b></p>
+    </div>
+    <div class="w3-col m6">
+      <img src="usetldr_nw_image_format_rupGBXGQwcOHPxQ.jpg" alt="Vanessa" 
+      style="width:50%">
+       <p><b>Vanessa</b></p>
+    </div>
+  </div>
+  <h4><b>About Us</b></h4>
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <p>We are Sainthavi, Lydia, and Vanessa. We are from Drexel University and are a first year student. We came up with the idea of the Focus Timer because it had helped us with our studying process. The timer will have you study for 25 minutes and then take a break for 5 minutes. Than we also have other features like they see a calender and check the date and plan out their week. Than there is articles that they can read about studying. Than in the top we have a Budget Maker where they can plan their budgeting and a journal to journal their feeling.</p>
+    <hr>
+  
+      </div>
+    </div>
+
+  <h5><b>Contact Us</b></h5>
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <p>You can contact us by emailing at sainthavi19@gmail.com, lydia.ann.mathew@gmail.com or vt382@drexel.edu!Thank you!</p>
+    <hr>
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
